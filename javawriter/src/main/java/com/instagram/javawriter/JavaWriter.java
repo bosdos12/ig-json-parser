@@ -411,7 +411,7 @@ public class JavaWriter implements Closeable {
     }
     out.write("(");
     if (parameters != null) {
-      for (int p = 0; p < parameters.size(); ) {
+      for (int p = 0; p < parameters.size();) {
         if (p != 0) {
           out.write(", ");
         }
